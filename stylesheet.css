@@ -1,5 +1,29 @@
 body{
-    background-color: rgb(20, 41, 41);
+    background: url("pictures/pexels-eberhard-grossgasteiger-572897.jpg");
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+}
+.background-filter{
+    background-image: linear-gradient(to bottom right, midnightblue, lightgray);
+    opacity: 1;
+    height:100%;
+    width:100%; 
+
+}
+nav{
+    background-image: linear-gradient(to bottom right, midnightblue, lightgray);
+    position: fixed;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    margin:0px;
+    border-radius: 5px;
+
+}
+header{
+    margin-top:150px;
+
 }
 
 h1,
@@ -10,27 +34,6 @@ h4{
     color: lightgray;
 }
 
-.pic{
-    display: block;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
-}
-.homevert{
-        display: block;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-    box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
-}
-.navButtons{
-    font-size: 40px;
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
-}
 .caption{
     color: lightgray;
     font-style: italic;
@@ -41,15 +44,14 @@ h4{
     margin-right: auto;
     width: 40%;
 }
-.learn-more{
-    text-align: left;
-}
-.secretbutton{
-    background-color: red;
-    display:block;
-    margin-left: 600px;
-    margin-right:600px;
-    margin-bottom: 10px;
+
+.pic{
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
 }
 .ericpic{
     margin-top: 20px;
@@ -59,4 +61,66 @@ h4{
     margin-right: auto;
     width: 40%;
     box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+}
+.home-button a{
+    position: fixed;
+    color: black;
+    text-align: center;
+    background-color: grey;
+    height: 25px;
+    width: 150px;
+    padding: 10px;
+    margin: auto 10px;
+    border-radius: 5px;
+   border: 5px double black;
+}
+.home-button a:hover {
+    color: lightgray;
+    background-color: rgb(20, 41, 41);
+   border: solid lightgray;
+}
+.homevert{
+        display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+}
+.learn-more{
+    text-align: left;
+}
+.navbar-buttons a{
+    position:relative;
+    left: 220px;
+    color: black;
+    text-align: center;
+    background-color: grey;
+    height: 18px;
+    width: 150px;
+    padding: 10px;
+    margin: auto 10px;
+    border-radius: 5px;
+   border: solid black;
+   display: inline-block;
+
+}
+.navbar-buttons a:hover{
+    position:relative;
+    color: lightgray;
+    background-color: rgb(20, 41, 41);
+   border: solid lightgray;
+   
+}
+.navButtons{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.secretbutton{
+    background-color: red;
+    display:block;
+    margin-left: 600px;
+    margin-right:600px;
+    margin-bottom: 10px;
 }
