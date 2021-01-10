@@ -18,6 +18,8 @@ body{
 nav{
     background-image: linear-gradient(to bottom right, midnightblue, gray);
     position: fixed;
+    z-index: 10;
+    
     top: 0;
     height: 80px;
     width: 100%;
@@ -64,7 +66,7 @@ p{
     margin-left: auto;
     margin-right: auto;
     width: 40%;
-    box-shadow: 10px 0px 10px 0px rgba(0, 0, 50, 0.97);
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 50, 0.97);
 }
 .ericpic{
     margin-top: 20px;
@@ -73,7 +75,7 @@ p{
     margin-left: auto;
     margin-right: auto;
     width: 40%;
-    box-shadow: 10px 0px 10px 0px rgba(0, 0, 50, 0.97);
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 50, 0.97);
 }
 .home-button a{
     position: fixed;
@@ -99,7 +101,7 @@ p{
     margin-left: auto;
     margin-right: auto;
     width: 30%;
-    box-shadow: 10px 0px 10px 0px rgba(0, 0, 50, 0.97);
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 50, 0.97);
 }
 .learn-more{
     text-align: left;
